@@ -23,3 +23,40 @@ Object oriented programming in pythons
   * __bases__ − Retuns the base classes, in the order of their occurrence in the base class list.
   
   ![builtin](https://github.com/Ankit-Khule/OOPs-in-Python/blob/master/images/builtin%20oops.JPG)
+
+
+## Inheritance
+* Inhertance is acquiring attributes and methods from another class.
+* class subclass(parent class) -->all the attributes of the parent class is inherited by the subclass.
+![Inheritance](https://github.com/Ankit-Khule/OOPs-in-Python/blob/master/images/basicinheritance.JPG)
+
+* if child class doesn't have a \_\_init\_\_ of its own it will inherit it from parent. if the constructor is present it will overide the constructor of parent class
+![Inheritanceinit](https://github.com/Ankit-Khule/OOPs-in-Python/blob/master/images/initoverride.JPG)
+
+* super() --> the function is used to inherit the attributes and methods from parent class even if subclass consist of init method to overide it.
+![super](https://github.com/Ankit-Khule/OOPs-in-Python/blob/master/images/super.JPG)
+
+## Types of Inheritance
+ * Single Inheritance - One parent --> one child
+![Single](https://github.com/Ankit-Khule/Functions/blob/master/images/singlelevel.JPG)
+
+ * Multilevel Inheritance - Parent--> sub Parent-->child
+ ![Multilevel](https://github.com/Ankit-Khule/Functions/blob/master/images/Mutlilevel.JPG)
+ 
+ * Multiple Inheritance - Two parents --> one child
+ ![Multiple](https://github.com/Ankit-Khule/Functions/blob/master/images/mutiple.JPG)
+ 
+ * Hierarchical Inheritance - One parent--> two child
+ ![hierarchical](https://github.com/Ankit-Khule/Functions/blob/master/images/Hierarchical.JPG)
+ 
+ * Hybrid Inheritance - two or more types of inheritance.
+![Hybrid](https://github.com/Ankit-Khule/Functions/blob/master/images/Hybrid.JPG)
+
+## Encapsulation
+
+## Abstraction
+
+
+## Method Overriding
+* Creating similar method in the child class with respect to parent class, overrides the method of parent class. Means it will replace the method of parent class and execute its own method
+![Method](https://github.com/Ankit-Khule/Functions/blob/master/images/Methodoverriding.JPG)
