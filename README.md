@@ -1,4 +1,4 @@
-# OOPs-in-Python
+# [OOPs-in-Python](https://github.com/Ankit-Khule/OOPs-in-Python/blob/master/oops.py)
 Object oriented programming in pythons
 
 * One of the ways of solving programming problems is by creating objects.
@@ -53,9 +53,10 @@ Object oriented programming in pythons
 ![Hybrid](https://github.com/Ankit-Khule/Functions/blob/master/images/Hybrid.JPG)
 
 ## Encapsulation
+* Protecting attributes and methods inside the class to be used outside the class
+![Encapsulation](https://github.com/Ankit-Khule/Functions/blob/master/images/Encapsulation.JPG)
 
-## Abstraction
-
+Here you can see if i am directly calling the parent attribute it is not accessible. It throws an attribute error. But when i call it from the child class which consist of parent class method. the value is accesible.
 
 ## Method Overriding
 * Creating similar method in the child class with respect to parent class, overrides the method of parent class. Means it will replace the method of parent class and execute its own method
